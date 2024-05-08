@@ -81,7 +81,7 @@ def train():
     '''
     If using a model pretrained with PTC, please use the below
     '''
-    # model_ckpt_path = 'ptc_corpus/ptc_checkpoints/run_2024-04-29_13-26/xlnet_0.3578.pth'
+    # model_ckpt_path = 'ptc_corpus/ptc_checkpoints/path/to/checkpoint'
 
 
     # # Load the checkpoint
