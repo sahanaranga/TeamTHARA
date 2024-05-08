@@ -75,7 +75,9 @@ python task2/task2_train.py
 ```
 
 ## Note
-The proposed architecture is designed to use RoBERTa and ViT. If using any other models, please follow the comments in the following files to make the necessary changes:
+1. The proposed architecture is designed to use RoBERTa and ViT. If using any other models, please follow the comments in the following files to make the necessary changes:
 
-* **Subtask 1**: task1_train.py, task1_collate.py
-* **Subtask 1**: task2_train.py, task2_collate.py, task2_dataset.py
+    - **Subtask 1**: task1_train.py, task1_collate.py
+    - **Subtask 1**: task2_train.py, task2_collate.py, task2_dataset.py
+      
+2. If pretraining a task 1 model with the PTC Corpus, please uncomment lines 84-107 in task1_train.py to load the checkpoint.
