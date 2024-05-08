@@ -1,5 +1,5 @@
 # Detection of Persuasion Techniques in Memes
-This is the codebase for the CSE 635 project. 
+This is the milestone 3 codebase for the CSE 635 project. 
 
 ## Downloading the datasets
 To access the PTC Corpus and SemEval2024 datasets, please register here:
