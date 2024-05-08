@@ -1,5 +1,5 @@
-# TeamTHARA
-Codebase for the project 'Detection of Persuasion Techniques in Memes' 
+# Detection of Persuasion Techniques in Memes
+This is the codebase for the CSE 635 project. 
 
 ## Downloading the datasets
 To access the PTC Corpus and SemEval2024 datasets, please register here:
