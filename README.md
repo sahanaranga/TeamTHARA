@@ -80,4 +80,4 @@ python task2/task2_train.py
     - **Subtask 1**: task1_train.py, task1_collate.py
     - **Subtask 1**: task2_train.py, task2_collate.py, task2_dataset.py
       
-2. If pretraining a task 1 model with the PTC Corpus, please follow the comments in task1_train.py to load the checkpoint.
+2. To train a task 1 model fine-tuned on the PTC Corpus, please follow the comments in task1_train.py to load the checkpoint.
