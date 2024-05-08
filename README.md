@@ -82,3 +82,4 @@ python task2/task2_train.py
       
 2. To train a task 1 model fine-tuned on the PTC Corpus, please follow the comments in task1_train.py to load the checkpoint.
 3. The Multilingual_subtask1_code.ipynb contains the experiments done on the multilingual meme datasets provided by the SemEval2024 Competition.
+    - To execute this code, libraries such as sklearn_hierarchical_classification, etc should be installed. Ensure all paths in the script (like model_ckpt_path) correctly point to your data and model checkpoint files. Please run the notebook cells sequentially to train the model and evaluate its performance on your data set.
