@@ -58,7 +58,7 @@ To pretrain the text encoders with the PTC Corpus, run the following:
 python ptc_corpus/train.py
 ```
 
-Include the path to the checkpoint in task1_train.py or task2_train.py.
+Include the path to the checkpoint in task1_train.py or task2_train.py to fine-tune the model with the SemEval2024 memes dataset.
 
 ## Training
 Run the following to train the model.
@@ -81,3 +81,4 @@ python task2/task2_train.py
     - **Subtask 1**: task2_train.py, task2_collate.py, task2_dataset.py
       
 2. To train a task 1 model fine-tuned on the PTC Corpus, please follow the comments in task1_train.py to load the checkpoint.
+3. The Multilingual_subtask1_code.ipynb contains the experiments done on the multilingual meme datasets provided by the SemEval2024 Competition.
