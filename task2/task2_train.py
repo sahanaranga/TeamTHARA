@@ -76,7 +76,7 @@ def train():
 
 
     model_name = 'roberta_vit_ptc'
-    model_ckpt_path = 'ptc_corpus/ptc_checkpoints/run_2024-04-27_21-19/roberta_0.3663.pth'
+    model_ckpt_path = 'ptc_corpus/ptc_checkpoints/path/to/checkpoint'
 
     model = FusionModel(num_classes=22, text_ckpt=model_ckpt_path)
 
